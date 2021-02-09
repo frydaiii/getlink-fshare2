@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Download</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+        }
+        a {
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <a href="" id="download">Download</a>
+    <script>
+        window.onload = () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const base64_url = urlParams.get('base64_url');
+            document.getElementById('download').href = '/download?base64_url=' + base64_url;
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "content-disposition": "^0.5.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-rate-limit": "^5.2.3",
+    "form-data": "^3.0.0",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.1",
+    "node-schedule": "^2.0.0",
+    "redis": "^3.0.2",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0",
+    "xmldom": "^0.4.0"
+  }
+}
