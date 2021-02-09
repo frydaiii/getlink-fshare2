@@ -25,13 +25,13 @@ router.get('/:file_url', validateUrl, limiter, async (req, res, next) => {
             if (url) {
                 const base64_url = new Buffer.from(url).toString('base64');
                 url = req.protocol + '://' + req.get('host') + '/redirect.html?base64_url=' + base64_url;
-                // const shortenRes = await fetch('https://link1s.com/api?api=9fce4a3ce21f62d52b6d8d0d8767d4c344bbfb2a&url=' + url);
-                // const shorten = await shortenRes.json();
+                const shortenRes = await fetch('https://link1s.com/api?api=9fce4a3ce21f62d52b6d8d0d8767d4c344bbfb2a&url=' + url);
+                const shorten = await shortenRes.json();
 
-                // if (shorten.status == 'error') logger.error('shorten url error: ' + shorten.message);
-                // else logger.info('shortenUrl: ' + shorten.shortenedUrl);
-                // res.status(200).send(shorten.shortenedUrl);
-                res.status(200).send(url);
+                if (shorten.status == 'error') logger.error('shorten url error: ' + shorten.message);
+                else logger.info('shortenUrl: ' + shorten.shortenedUrl);
+                res.status(200).send(shorten.shortenedUrl);
+                // res.status(200).send(url);
                 return;
             } 
 
