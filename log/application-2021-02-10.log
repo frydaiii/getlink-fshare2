@@ -1,0 +1,19 @@
+2021-02-10T00:31:41.897Z info: 42.118.177.4 GET https://www.fshare.vn/file/J4OSNNZRMH9L
+2021-02-10T00:31:41.908Z info: getting download link...
+2021-02-10T00:31:42.377Z info: {"location":"http://download001.fshare.vn/dl/FAaAjzC1qOhGxT4F8X4KLPk8OVIOL+Zd0VX+7B-kjnxAGQZhHBQUy0wMm-7qw5RHQsVEhENt3mGT6kF3/Build%20a%20Shopping%20Cart%20App%20with%20React%20Node%20and%20Stripe.rar"}
+2021-02-10T00:31:42.663Z info: shortenUrl: http://link1s.com/fcCNh
+2021-02-10T01:28:44.441Z info: 171.236.113.220 GET https://www.fshare.vn/folder/EZKKVE2SLBG2
+2021-02-10T01:28:44.441Z info: getting download link...
+2021-02-10T01:28:44.950Z error: get-link router: Error: get-download-link service: FetchError: invalid json response body at https://api.fshare.vn/api/session/download reason: Unexpected token < in JSON at position 2
+2021-02-10T01:33:15.454Z info: 171.236.113.220 GET https://www.fshare.vn/file/9ABEVUFBZSR5
+2021-02-10T01:33:15.455Z info: getting download link...
+2021-02-10T01:33:15.849Z info: {"location":"http://download001.fshare.vn/dl/O9zalO8QTd-c2xHZwi8uygcesjMgcbhlsEjz5yhuy7enMi8cugBp9A5+73MwCHx1IqBI81V4W1xDec5T/04%20Tin%20Toy%20%281988%29.mkv"}
+2021-02-10T01:33:21.075Z info: shortenUrl: http://link1s.com/aIvjwb9f
+2021-02-10T01:48:48.574Z info: 171.236.113.220 GET https://www.fshare.vn/file/XJNBBCKGEDB7
+2021-02-10T01:48:48.576Z info: getting download link...
+2021-02-10T01:48:53.893Z info: {"location":"http://download005.fshare.vn/dl/tl6mfcVTxXhunKoRkeB3SZExEqF05zr6c2a8KFui4eazUJRT6N8SKmodMZ7MjnK8HA44o+WeLvrQgOK2/07%20For%20the%20Birds%20%282000%29.mkv"}
+2021-02-10T01:48:54.169Z info: shortenUrl: http://link1s.com/yXvn
+2021-02-10T02:06:51.725Z info: 171.236.113.220 GET https://www.fshare.vn/file/MABERFJ5SBV9
+2021-02-10T02:06:51.727Z info: getting download link...
+2021-02-10T02:06:53.610Z info: {"location":"http://download026.fshare.vn/dl/exbGUVIwSNcDzFxGPmh0Ftbh2D2-ij-URAnU0pCSAZlMlNi5+mFlH-zv8AoLbJtqvO2aFxeqNC2rSX1I/La%20Luna%202011%201080p%20Blu-ray%20DTS-HDMA%205.1%20HEVC-%20DDR.mkv"}
+2021-02-10T02:06:58.842Z info: shortenUrl: http://link1s.com/Gtujtks

@@ -19,10 +19,11 @@
 <body>
   <div id="container">
     <h1>Get Link Fshare Vippromax</h1>
-    <h4><i>Báo lỗi: fb.com/getlinkfshare</i></h4>
+    <h4><i>Tải chậm? Lỗi? Liên hệ: fb.com/getlinkfshare</i></h4>
     <p style="font-size: x-large;"><a href="" id="link-download" target="_blank"></a></p>
     <p id="note" style="font-size: x-large;"><b>Happy new year.</b></p>
-    <p>Nhập url file cần tải.</p>
+    <p>Giới hạn 6Gb/1 file và 2 lần get/15 phút.<br>
+    Copy nguyên cả link và dán vào đây</p>
     <div class="form">
       <input 
       id="file_url" 
@@ -33,7 +34,11 @@
       <button onclick="get()" id="button">Get</button>
     </div>
     <p>
-      Giới hạn 6Gb/1 file và 2 lần get/15 phút.
+      <i>tham khảo từ 
+        <a href="https://viblo.asia/p/nhat-ky-lam-he-thong-getlink-vip-fshare-trong-48h-m68Z07v6KkG">
+          Nhật ký làm hệ thống getLink vip Fshare trong 48h
+        </a>
+      </i>
     </p>
   </div>
 
@@ -43,7 +48,8 @@
       document.getElementById('link-download').innerHTML = '';
 
       let file_url = document.getElementById("file_url").value;
-      file_url = file_url.slice(0, file_url.lastIndexOf('?'));
+      if (file_url.lastIndexOf('?') != -1)
+        file_url = file_url.slice(0, file_url.lastIndexOf('?'));
       file_url = encodeURIComponent(file_url);
 
       document.getElementById("file_url").value = '';

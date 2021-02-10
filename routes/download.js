@@ -9,8 +9,6 @@ const logger = require('../methods/logger');
 
 router.get('/', async (req, res, next) => {
     try {
-        await logger.info('parse url & file name')
-
         let available = Number(await getKey('available'));
         if (available < 1) {
             res.status(201).send('Server full, thử lại lúc khác nhé fen');

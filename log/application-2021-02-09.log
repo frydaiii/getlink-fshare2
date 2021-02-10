@@ -59,3 +59,127 @@
 2021-02-09T13:34:43.417Z info: {"location":"http://download024.fshare.vn/dl/pAw5gHddKAkntJWBcDMQmVfEllzilJeaikIOkX4Yik36cU+eeobKwVLYoejPUKVtlJx4lZjz3PvN0D9p/%5BSanTruongIT.com%5D%20Adobe.After.Effects.2020.v17.1.0.72u1.zip"}
 2021-02-09T13:34:44.483Z info: shortenUrl: http://link1s.com/bnwaoc7N
 2021-02-09T13:35:41.705Z info: done
+2021-02-09T13:46:18.755Z error: Only absolute URLs are supported
+2021-02-09T14:05:16.055Z info: 192.53.113.40 GET https://www.fshare.vn/file/ZQDDH3OUYYOA
+2021-02-09T14:05:16.057Z info: getting download link...
+2021-02-09T14:05:16.724Z info: {"location":"http://download014.fshare.vn/dl/5qbd9IL5wDZxWsT49zt0-Cbx6Yy-O3bhG4-0tZ6SZCsfjqsDs2dMk7z-WvG-oCzxxG5tTouMEw588lb5/Master%20Responsive%20Web%20Design%20CSS%20Grid%20Flexbox%20%20Animations.rar"}
+2021-02-09T14:05:27.923Z info: shortenUrl: http://link1s.com/aC6BcanM
+2021-02-09T14:05:47.629Z info: parse url & file name
+2021-02-09T14:05:47.757Z info: start download
+2021-02-09T14:06:04.378Z info: done
+2021-02-09T14:06:18.981Z info: parse url & file name
+2021-02-09T14:06:19.032Z info: start download
+2021-02-09T14:18:05.623Z info: done
+2021-02-09T14:23:07.115Z info: 171.226.133.37 GET https://www.fshare.vn/file/8RX4FKCO4ASWT4T
+2021-02-09T14:23:07.116Z info: getting download link...
+2021-02-09T14:23:07.765Z info: {"location":"http://download017.fshare.vn/dl/RsI0oLLEhVXbEqDMXJijDxSpummaRvrKPpmai5-5t+gUn0qtmci3MEMmM4yVvf01307h3mM43MldLI0a/50.First.Dates.2004.720p.BluRay.DTS.x264.CtrlHD%281%29.mkv"}
+2021-02-09T14:23:14.170Z info: shortenUrl: http://link1s.com/nXXe5cdd
+2021-02-09T14:24:19.747Z info: parse url & file name
+2021-02-09T14:24:20.041Z info: start download
+2021-02-09T14:24:20.226Z info: done
+2021-02-09T14:24:20.317Z info: parse url & file name
+2021-02-09T14:24:20.371Z info: start download
+2021-02-09T14:30:05.776Z info: done
+2021-02-09T14:36:35.543Z error: Only absolute URLs are supported
+2021-02-09T14:36:48.277Z error: Only absolute URLs are supported
+2021-02-09T14:36:51.606Z error: Only absolute URLs are supported
+2021-02-09T14:37:52.753Z error: Only absolute URLs are supported
+2021-02-09T14:43:39.548Z error: Only absolute URLs are supported
+2021-02-09T14:44:50.664Z error: Only absolute URLs are supported
+2021-02-09T14:45:22.962Z info: 14.255.177.236 GET https://www.fshare.vn/file/XZWBKKUBRNO6JWNB
+2021-02-09T14:45:22.965Z info: getting download link...
+2021-02-09T14:45:23.565Z info: {"location":"http://download023.fshare.vn/dl/cT1vz0XdswoA6ATVfT86NBpCH4KwJLCCjC-IKvUBeV21CfOFBpVeimt1kGUMpiQ2HnvxyzFPIAFufIqD/Windows%20XP%2032-bit.iso"}
+2021-02-09T14:45:24.591Z info: shortenUrl: http://link1s.com/Kn5W
+2021-02-09T14:46:27.047Z info: start download
+2021-02-09T14:47:33.999Z info: done
+2021-02-09T14:51:20.692Z error: request to https://www.fshare.vn/file/J5SARSC2YDQD failed, reason: getaddrinfo EAI_AGAIN www.fshare.vn
+2021-02-09T15:34:27.972Z info: 14.231.102.67 GET https://www.fshare.vn/file/8CQFOSNLT3LJ
+2021-02-09T15:34:27.974Z info: getting download link...
+2021-02-09T15:34:31.296Z info: {"location":"http://download033.fshare.vn/dl/BY7jSsS5vjdCUmvxr1QacDNWWnpwu7wGy-XLP25jieG3UYvcvcrKqVLtLBa+Wc2EjMagnm0qWXU8FTRU/Tom%20%20Jerry%20Classic%20Collection%20-%20161%20Ep%20-%20Part%201.zip"}
+2021-02-09T15:34:32.648Z info: shortenUrl: http://link1s.com/OBjUs
+2021-02-09T15:35:36.476Z info: start download
+2021-02-09T15:35:37.647Z info: done
+2021-02-09T15:35:37.710Z info: start download
+2021-02-09T15:35:37.713Z info: start download
+2021-02-09T15:35:37.804Z info: done
+2021-02-09T15:40:09.194Z info: done
+2021-02-09T15:40:14.370Z info: start download
+2021-02-09T15:43:03.832Z info: done
+2021-02-09T15:53:53.677Z info: 14.190.90.145 GET https://www.fshare.vn/file/1DJ8BKOEOXCO
+2021-02-09T15:53:53.678Z info: getting download link...
+2021-02-09T15:53:54.290Z info: {"location":"http://download039.fshare.vn/dl/rV1ebbW2Ag-aZhlesZJcfVourLuke4G3TzQ7VqV+meHsgrrL-AnmB4wqaDmVDZhf-M8evBBRsXkZ1IeD/Sonic%20the.Hedgehog.2020.ViE.1080p.AMZN.WEB-DL.DDP5.1.H.264-TEPES%20%28Thuyet%20Minh%20-%20Sub%20Viet%29.mkv"}
+2021-02-09T15:53:54.557Z info: shortenUrl: http://link1s.com/PIBE
+2021-02-09T15:55:24.774Z info: start download
+2021-02-09T16:03:05.139Z info: 117.5.155.109 GET https://www.fshare.vn/file/RB1XCMTY39SX
+2021-02-09T16:03:05.145Z info: getting download link...
+2021-02-09T16:03:05.770Z info: {"location":"http://download032.fshare.vn/dl/qppnMaicFulBFuEEZfa31ejoXKMoxzMTVyOXjjrmsDgaiEsINozF6pIpwGQQSDFennugqY0rRmAem2Kt/Avatar.The.Last.Airbender.S01E01.1080p.BluRay.REMUX.AVC.DTS-HD.MA.2.0-H72.mkv"}
+2021-02-09T16:03:07.056Z info: shortenUrl: http://link1s.com/4PoxA
+2021-02-09T16:04:06.779Z info: start download
+2021-02-09T16:04:57.957Z info: start download
+2021-02-09T16:07:32.766Z info: done
+2021-02-09T16:07:34.174Z info: done
+2021-02-09T16:09:24.391Z info: done
+2021-02-09T16:22:09.560Z info: start download
+2021-02-09T16:23:42.445Z info: done
+2021-02-09T16:27:46.956Z error: Only absolute URLs are supported
+2021-02-09T16:27:58.877Z error: Only absolute URLs are supported
+2021-02-09T16:28:24.784Z info: 14.251.154.31 GET https://www.fshare.vn/file/4VS3SGNLSVPP
+2021-02-09T16:28:24.784Z info: getting download link...
+2021-02-09T16:28:30.444Z info: {"location":"http://download002.fshare.vn/dl/EZIdoYmao4sKGhU+NF5Zn8g4752PkSMsODnYtgxfIAILQZa6Uim-t-VbJZp0A7O+BI6G8EWHRMRQVuDZ/Great%20Teacher%20Onizuka%20-%20Episode%2001.mkv"}
+2021-02-09T16:28:31.798Z info: shortenUrl: http://link1s.com/LCOHfB4x
+2021-02-09T16:28:59.362Z info: 14.251.154.31 GET https://www.fshare.vn/file/4VS3SGNLSVPP
+2021-02-09T16:28:59.362Z info: getting download link...
+2021-02-09T16:28:59.939Z info: {"location":"http://download002.fshare.vn/dl/Qzy2V9Zlzbs+o0UETJFuAYe163DFN6zvQiTI-GUtpEFuLw2kbNo4zSr6+X6aZ7b0kIO9sVH-HxQyHCrX/Great%20Teacher%20Onizuka%20-%20Episode%2001.mkv"}
+2021-02-09T16:29:00.162Z info: shortenUrl: http://link1s.com/2uyDY
+2021-02-09T16:31:53.290Z info: start download
+2021-02-09T16:31:54.082Z info: done
+2021-02-09T16:31:54.963Z info: start download
+2021-02-09T16:32:32.606Z info: done
+2021-02-09T16:33:05.862Z info: start download
+2021-02-09T16:33:06.153Z info: done
+2021-02-09T16:33:08.570Z info: start download
+2021-02-09T16:34:37.527Z info: done
+2021-02-09T16:52:42.016Z info: start download
+2021-02-09T16:52:48.042Z info: 171.236.49.83 GET https://www.fshare.vn/file/1RHWQSEDENRN
+2021-02-09T16:52:48.049Z info: getting download link...
+2021-02-09T16:52:48.857Z info: {"location":"http://download045.fshare.vn/dl/9e8X7ftxSLEJAzt4s1wLRREEELS-uVTYbkA5FBWMx39wqQwdyu1AzY4FobH02qfsXfZxv7DMfVMV6FnG/MatDau.P3.E32.2020.1080i.x264.mkv"}
+2021-02-09T16:52:54.838Z info: shortenUrl: http://link1s.com/MOZfJD2
+2021-02-09T16:53:58.211Z info: start download
+2021-02-09T16:54:10.052Z info: done
+2021-02-09T16:58:16.318Z info: done
+2021-02-09T17:00:38.227Z info: start download
+2021-02-09T17:00:43.955Z info: done
+2021-02-09T17:06:51.075Z info: 117.5.155.109 GET https://www.fshare.vn/file/PUUFAT3NSOPC
+2021-02-09T17:06:51.077Z info: getting download link...
+2021-02-09T17:06:52.065Z info: {"location":"http://download024.fshare.vn/dl/TBfXXUGolJXtiKnHca3znmyRObBlzqT6DDhRkiAlB1Gggz8z7Kd5U2UGjcuVJdPXRnOCyESHB84PbEML/%5BSanTruongIT.com%5D%20Adobe.After.Effects.2020.v17.1.0.72u1.zip"}
+2021-02-09T17:06:52.701Z info: shortenUrl: http://link1s.com/37qDZ0f
+2021-02-09T17:07:34.296Z info: 171.236.49.83 GET https://www.fshare.vn/file/1RHWQSEDENRN
+2021-02-09T17:07:34.296Z info: getting download link...
+2021-02-09T17:07:37.596Z info: {"location":"http://download045.fshare.vn/dl/EhLgzZZulQtdjQI+11J3gjjKkTa8llT50NSyR+4weu+QBJdG3ZcQVwDYKg9j1P4K0CgOrxM-Q0aIHuLh/MatDau.P3.E32.2020.1080i.x264.mkv"}
+2021-02-09T17:07:37.803Z info: shortenUrl: http://link1s.com/xTmh5KFz
+2021-02-09T17:07:44.899Z info: start download
+2021-02-09T17:07:44.952Z info: 171.236.49.83 GET https://www.fshare.vn/file/1RHWQSEDENRN
+2021-02-09T17:07:44.952Z info: getting download link...
+2021-02-09T17:07:45.191Z info: {"location":"http://download045.fshare.vn/dl/Y3S-wqNxx9Lg1g9NEjdAqKPGzaDhm-2WU9hBH7coL3GeBDQ1E5U3PgSYi-+jIdB22fiJZ65271Ei7pPI/MatDau.P3.E32.2020.1080i.x264.mkv"}
+2021-02-09T17:07:45.388Z info: shortenUrl: http://link1s.com/GDWRnK
+2021-02-09T17:08:02.108Z info: done
+2021-02-09T17:31:45.306Z info: 85.76.81.152 GET https://www.fshare.vn/file/42MRMLSY8XOC
+2021-02-09T17:31:45.307Z info: getting download link...
+2021-02-09T17:31:53.699Z info: {"location":"http://download012.fshare.vn/dl/JV3MBCnvM3ypHC2qkSNN9aG2C2UTroSqiQLKYHjqUoJVot99Tr2X85mS0mOAZpj5OiM5COGupVcpDWkF/Tom%20and%20Jerry%20-%20Meet%20Sherlock%20Holmes%20%282010%29.mp4"}
+2021-02-09T17:31:54.073Z info: shortenUrl: http://link1s.com/O7OuE
+2021-02-09T17:46:31.795Z info: 117.5.155.109 GET https://www.fshare.vn/file/WHEAXLXM243T
+2021-02-09T17:46:31.796Z info: getting download link...
+2021-02-09T17:46:32.130Z info: {"location":"http://download023.fshare.vn/dl/rheBpElm1ajz-OyugHATSmZZu3XOXyO44hCYPS23AU2JAdg3xE3fUOFGyQY-PxH-wI63P3i+hTXe0UY0/02.CEO%20VinaLink%20chia%20s%E1%BA%BB%20c%C3%A1ch%20l%C3%A0m%20Marketing%20tr%C3%AAn%20Facebook%20t%E1%BB%AB%20A-Z.rar"}
+2021-02-09T17:46:32.720Z info: shortenUrl: http://link1s.com/bH1fq9Z
+2021-02-09T17:54:45.281Z info: 117.5.155.109 GET https://www.fshare.vn/file/7E3X8YZRJ75Q
+2021-02-09T17:54:45.282Z info: getting download link...
+2021-02-09T17:54:51.894Z info: {"location":"http://download026.fshare.vn/dl/0vlwkAyg+zsHACQKX6tQ+38yCbPk1hu4RGmEbUUxk3Nd8IWPzdmccksq2nbuVREiIlLWAo8dO0cS15eb/Avatar.The.Last.Airbender.S01E02.1080p.BluRay.REMUX.AVC.DTS-HD.MA.2.0-H72.mkv"}
+2021-02-09T17:54:52.504Z info: shortenUrl: http://link1s.com/YmEYZ
+2021-02-09T18:32:04.957Z info: 42.115.245.202 GET https://www.fshare.vn/file/BID1P9WGBU6XYOB
+2021-02-09T18:32:04.958Z info: getting download link...
+2021-02-09T18:32:13.408Z info: {"location":"http://download047.fshare.vn/dl/YtHsvE0QkxynvrMC-DQVl2hoUNSmv8eSXMlW7e7xtVUNEI66lMkyQYC9yRb0pG++CYo3SkaVUS5dRMsk/Auto%20Chatbot%20v%C3%A0%20H%E1%BB%87%20th%E1%BB%91ng%20Fanpage%20SEO%20Top%20Google.zip"}
+2021-02-09T18:32:13.758Z info: shortenUrl: http://link1s.com/USDz
+2021-02-09T20:04:54.972Z info: 42.117.248.36 GET https://www.fshare.vn/file/FDDGVQSHSARQ
+2021-02-09T20:04:54.973Z info: getting download link...
+2021-02-09T20:04:55.272Z info: {"location":"http://download014.fshare.vn/dl/MBKC6wyIAaT1u+WBTOh3rUojJU9r6XExQORLQ+XdBNFz7jdS1S0y9WFZu9oKvAeCEIlwqueyqN4kJ8en/Win10.X64.en-US.iso"}
+2021-02-09T20:04:55.522Z info: shortenUrl: http://link1s.com/QRGTAy

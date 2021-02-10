@@ -18,7 +18,8 @@
         window.onload = () => {
             const urlParams = new URLSearchParams(window.location.search);
             const base64_url = urlParams.get('base64_url');
-            document.getElementById('download').href = '/download?base64_url=' + base64_url;
+            const url = atob(base64_url).replace('fshare.vn', 'vippromax.xyz');
+            document.getElementById('download').href = url;
         };
     </script>
 </body>
