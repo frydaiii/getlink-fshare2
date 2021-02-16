@@ -3,6 +3,9 @@ const logger = require('../methods/logger');
 
 module.exports = async (req, res, next) => {
     try {
+        if (req.params.file_url.search('fshare.vn/file') == -1) 
+            return next(new Error('Link khong ton tai'));
+            
         const file_url = decodeURIComponent(req.params.file_url);
         const response = await fetch(file_url);
         const plainHtml = await response.text();

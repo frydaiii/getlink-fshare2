@@ -1,15 +1,16 @@
+/* For mobile phones: */
 body {
-  padding: 30px;
+  padding: 10px;
 }
 
 #container {
-  margin: auto;
-  width: 50%;
+  /* margin: auto; */
+  width: 100%;
   background-color: bisque;
   padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 10px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  padding-bottom: 20px;
   border-radius: 10px;
 }
 
@@ -18,8 +19,34 @@ h1, h4, p {
   margin: 10px;
 }
 
-.form {
+#form {
   display: flex;
   width: 100%;
   justify-content: center;
 }
+
+@media only screen and (min-width: 768px) {
+  #container {
+    margin: auto;
+    width: 50%;
+    background-color: bisque;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  h1, h4, p {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}
+  
+  

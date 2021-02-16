@@ -5,7 +5,6 @@ let logger = require('morgan');
 
 let getLinkRouter = require('./routes/get-link');
 let downloadRouter = require('./routes/download');
-let addAccountRouter = require('./routes/account');
 
 let app = express();
 
@@ -19,6 +18,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/get', getLinkRouter);
 app.use('/download', downloadRouter);
-app.use('/account', addAccountRouter);
 
 module.exports = app;

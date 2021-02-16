@@ -3,24 +3,32 @@
     <title>Download</title>
     <style>
         body {
-            display: flex;
-            justify-content: center;
             padding: 30px;
         }
-        a {
+        p {
+            text-align: center;
+            font-size: x-large;
+        }
+        p a {
             font-size: xx-large;
         }
     </style>
 </head>
 <body>
-    <a href="" id="download">Download</a>
+    <div id="container">
+        <p>
+            <a href="" id="download">Download</a>
+        </p>
+        <p>
+            <b>Lưu ý: link sẽ mất sau khi tải xong, hoặc đang tải mà bị thoát.</b><br><br>
+            <i>Donate (MoMo) để duy trì trang web:</i><br>
+            <img src="momoqr.jpg" width="200" height="200">
+        </p>
+    </div>
     <script>
-        window.onload = () => {
-            const urlParams = new URLSearchParams(window.location.search);
-            const base64_url = urlParams.get('base64_url');
-            const url = atob(base64_url).replace('fshare.vn', 'vippromax.xyz');
-            document.getElementById('download').href = url;
-        };
+        const urlParams = new URLSearchParams(window.location.search);
+        const base64_url = urlParams.get('slot');
+        document.getElementById('download').href = 'http://203.171.21.126:3000/download?slot=' + base64_url;
     </script>
 </body>
 </html>

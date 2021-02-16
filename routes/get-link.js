@@ -3,54 +3,62 @@ const router = express.Router();
 const fetch = require('node-fetch');
 const rateLimit = require('express-rate-limit');
 const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000,
+    windowMs: 60 * 60 * 1000,
     max: 2,
-    message: 'Đã nói 15 phút tải được 2 lần thôi'
+    message: '60 phút tải được 2 lần thôi'
 });
 
-const get = require('../services/redis-command').get;
-const login = require('../services/login');
-const logout = require('../services/logout');
+const hset = require('../services/redis-command').hset;
+const hget = require('../services/redis-command').hget;
+const refreshToken = require('../services/refresh-token');
 const getDownloadLink = require('../services/get-download-link');
 const logger = require('../methods/logger');
-
 const validateUrl = require('../services/validate-url');
 
 router.get('/:file_url', validateUrl, limiter, async (req, res, next) => {
     try {
         await logger.info(req.ip + ' GET ' + req.params.file_url);
 
-        while (true) {
-            let url = await getDownloadLink(req.params.file_url);
-            if (url) {
-                const base64_url = new Buffer.from(url).toString('base64');
-                url = req.protocol + '://' + req.get('host') + '/redirect.html?base64_url=' + base64_url;
-                const shortenRes = await fetch('https://link1s.com/api?api=9fce4a3ce21f62d52b6d8d0d8767d4c344bbfb2a&url=' + url);
-                const shorten = await shortenRes.json();
+        // check empty slot
+        let slot_index= 0;
+        let state;
 
-                if (shorten.status == 'error') logger.error('shorten url error: ' + shorten.message);
-                else logger.info('shortenUrl: ' + shorten.shortenedUrl);
-                res.status(200).send(shorten.shortenedUrl);
-                // res.status(200).send(url);
-                return;
-            } 
-
-            //if get download-link failed
-            const current = Number(await get.key('current'));
-            const accounts = await get.list('accounts');
-            if (current == accounts.length - 1) {
-                await logger.info('out of storage per day');
-                res.status(202).send('Account hết lưu lượng cmnr, mai thử lại nhé :))');
-                return;
-            }
-
-            //there is available accounts left
-            let session_id = await get.key('session_id');
-            await logout(session_id);
-            await logger.info('logging in with different account...');
-
-            await login(current + 1);
+        while (slot_index < 6) {
+            state = await hget('slot', String(slot_index));
+            if (state === 'available') break;
+            else slot_index++;
         }
+        
+        if (slot_index >= 6) {
+            if (state == 'unavailable') 
+                res.status(202).send('Account hết lưu lượng cmnr, mai thử lại nhé :))');
+            else res.status(201).send('Server full, thử lại lúc khác nhé fen');
+            return;
+        }
+
+        // slot_index is empty
+        // pick account[x] to get download Url and fill it into slot_index
+        const x = slot_index % 3;
+        let download = await getDownloadLink(x, req.params.file_url);
+
+        if (download.status == 201) { // token is out-dated
+            refreshToken(x);
+            download = await getDownloadLink(x, req.params.file_url);
+        }
+        
+        if (download.status == 200) { // success url
+            download = await download.json();
+            logger.info(download.location);
+            hset('slot', slot_index, download.location);
+
+            const url = req.protocol + '://' + req.get('host') + '/redirect.html?slot=' + slot_index;
+            const shorten = await (await fetch('https://link1s.com/api?api=9fce4a3ce21f62d52b6d8d0d8767d4c344bbfb2a&url=' + url)).json();
+            if (shorten.status == 'error') await logger.error('shorten url error: ' + shorten.message);
+            else await logger.info('shortenUrl: ' + shorten.shortenedUrl);
+            
+            res.status(200).send(shorten.shortenedUrl);
+        } else throw new Error('fshare status for get-download-link: ' + download.status);
+
     } catch (err) {
         logger.error('get-link router: ' + err);
         next(err);

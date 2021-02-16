@@ -1,0 +1,117 @@
+2021-02-16T14:41:29.539Z info: ::ffff:127.0.0.1 GET https://www.fshare.vn/file/PUUFAT3NSOPC
+2021-02-16T14:41:29.545Z info: getting download link...
+2021-02-16T14:41:30.550Z info: {"location":"http://download024.fshare.vn/dl/0TO5TCyDwP0jZddB55Y-Z+spxOioDNX12AOqrbv0GDsD9JhJS8spiqIdud1ZyashpS0n9GFcvHOCyJPj/%5BSanTruongIT.com%5D%20Adobe.After.Effects.2020.v17.1.0.72u1.zip"}
+2021-02-16T14:41:30.551Z error: get-link router: Error: undefined undefined
+2021-02-16T14:51:21.633Z info: ::ffff:127.0.0.1 GET https://www.fshare.vn/file/PUUFAT3NSOPC
+2021-02-16T14:51:21.642Z info: getting download link...
+2021-02-16T14:51:22.629Z error: get-link router: ReferenceError: index is not defined
+2021-02-16T14:52:35.478Z info: ::ffff:127.0.0.1 GET https://www.fshare.vn/file/PUUFAT3NSOPC
+2021-02-16T14:52:35.483Z error: get-link router: ReferenceError: slot_index is not defined
+2021-02-16T14:53:10.984Z info: ::ffff:127.0.0.1 GET https://www.fshare.vn/file/PUUFAT3NSOPC
+2021-02-16T14:53:10.989Z error: get-link router: ReferenceError: slot_ is not defined
+2021-02-16T14:54:31.531Z info: ::ffff:127.0.0.1 GET https://www.fshare.vn/file/PUUFAT3NSOPC
+2021-02-16T14:54:31.537Z info: getting download link...
+2021-02-16T14:54:33.879Z error: shorten url error: URL is invalid.
+2021-02-16T14:58:55.220Z info: ::ffff:127.0.0.1 GET https://www.fshare.vn/file/PUUFAT3NSOPC
+2021-02-16T14:58:55.227Z info: getting download link...
+2021-02-16T14:58:56.729Z info: http://download024.fshare.vn/dl/TVj9+VlHwziYyPAMzUck8C9JYuDSwEV6XvuFL0qrzRvlZXXhMi5PUkfEd2maddU-LWFqvzjdOUHy-bQB/%5BSanTruongIT.com%5D%20Adobe.After.Effects.2020.v17.1.0.72u1.zip
+2021-02-16T14:58:56.732Z error: get-link router: ReferenceError: hset is not defined
+2021-02-16T14:59:28.810Z info: ::ffff:127.0.0.1 GET https://www.fshare.vn/file/PUUFAT3NSOPC
+2021-02-16T14:59:28.817Z info: getting download link...
+2021-02-16T14:59:29.792Z info: http://download024.fshare.vn/dl/Y9Rxb5CG6zIWXOKVQzCeZ8A5quH9VgLWrozWTJndZCgBn8jcveuI6Up-bH4DVdTW7EC1XVXBtFOicdX4/%5BSanTruongIT.com%5D%20Adobe.After.Effects.2020.v17.1.0.72u1.zip
+2021-02-16T14:59:30.042Z error: shorten url error: URL is invalid.
+2021-02-16T15:00:53.181Z info: start download
+2021-02-16T15:01:13.483Z info: done
+2021-02-16T15:03:14.838Z error: download router: TypeError: Only absolute URLs are supported
+2021-02-16T15:04:37.964Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/PUUFAT3NSOPC
+2021-02-16T15:04:37.971Z info: getting download link...
+2021-02-16T15:04:38.163Z info: refreshing account 0.3333333333333333
+2021-02-16T15:04:38.165Z info: getting download link...
+2021-02-16T15:04:38.296Z error: get-link router: Error: fshare status for get-download-link: 201
+2021-02-16T15:07:33.900Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/PUUFAT3NSOPC
+2021-02-16T15:07:33.908Z info: getting download link...
+2021-02-16T15:07:35.000Z info: http://download024.fshare.vn/dl/KsLa1o14CcC428zLZxVlc+NVv4VIlOuRNFZQy451jupa0pD9kzTWF7Uq2H66o+vTuIyUVm3QrX7FmiU7/%5BSanTruongIT.com%5D%20Adobe.After.Effects.2020.v17.1.0.72u1.zip
+2021-02-16T15:07:35.258Z info: shortenUrl: http://link1s.com/hfxo
+2021-02-16T15:09:05.834Z info: start download
+2021-02-16T15:09:17.306Z info: start download
+2021-02-16T15:09:19.758Z info: done
+2021-02-16T15:09:58.940Z error: download router: TypeError: Only absolute URLs are supported
+2021-02-16T15:24:12.775Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/PW4J3HY5GNJK
+2021-02-16T15:24:12.782Z info: getting download link...
+2021-02-16T15:24:13.401Z info: http://download019.fshare.vn/dl/xcdKOfD0z+US9GpiJkekqTGTPX-jRSVKP3cZejMZv3pSLRQUj2C0pdN4RW35Uw4d2WtozaCbleUlX2wd/Vu%20Thu%E1%BA%ADt%20Th%E1%BA%A7n%20B%C3%AD%20-%20G%E1%BB%8Di%20H%E1%BB%93n%20C%E1%BA%A7u%20H%E1%BB%93n%20Nh%E1%BA%ADp%20X%C3%A1c.pdf
+2021-02-16T15:24:13.635Z info: shortenUrl: http://link1s.com/jwGLKdZP
+2021-02-16T15:25:00.149Z info: start download
+2021-02-16T15:31:11.481Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/PW4J3HY5GNJK
+2021-02-16T15:31:11.487Z info: getting download link...
+2021-02-16T15:31:13.750Z info: http://download019.fshare.vn/dl/VngwzT7wrCKKtSnz2Q+kEBvaQywToVvFK4jQlDpWeSrIStS2eog93MPWTaUNx9j3CfitoV9CL7eZY4us/Vu%20Thu%E1%BA%ADt%20Th%E1%BA%A7n%20B%C3%AD%20-%20G%E1%BB%8Di%20H%E1%BB%93n%20C%E1%BA%A7u%20H%E1%BB%93n%20Nh%E1%BA%ADp%20X%C3%A1c.pdf
+2021-02-16T15:31:13.954Z info: shortenUrl: http://link1s.com/jwGLKdZP
+2021-02-16T15:32:04.775Z info: start download
+2021-02-16T15:32:08.257Z info: done
+2021-02-16T15:33:58.145Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/PW4J3HY5GNJK
+2021-02-16T15:33:58.150Z info: getting download link...
+2021-02-16T15:33:58.837Z info: http://download019.fshare.vn/dl/9iV4zqEQhDOxqkVeeHK+i9x71JVv+anMXT9kyV886TZM9o1u37vKDZT556zqIBhGNCzoXE7pknM+LHC4/Vu%20Thu%E1%BA%ADt%20Th%E1%BA%A7n%20B%C3%AD%20-%20G%E1%BB%8Di%20H%E1%BB%93n%20C%E1%BA%A7u%20H%E1%BB%93n%20Nh%E1%BA%ADp%20X%C3%A1c.pdf
+2021-02-16T15:33:59.051Z info: shortenUrl: http://link1s.com/jwGLKdZP
+2021-02-16T15:34:53.448Z info: start download
+2021-02-16T15:43:05.162Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/PW4J3HY5GNJK
+2021-02-16T15:43:05.169Z info: getting download link...
+2021-02-16T15:43:08.869Z info: http://download019.fshare.vn/dl/4AwP0O6CaRM5U0BimgdLXCpOiGqFzDinlWXBk8D2nGTxhjtOAwoqk+UQompLiIRwwdNx+byfPUc05mq-/Vu%20Thu%E1%BA%ADt%20Th%E1%BA%A7n%20B%C3%AD%20-%20G%E1%BB%8Di%20H%E1%BB%93n%20C%E1%BA%A7u%20H%E1%BB%93n%20Nh%E1%BA%ADp%20X%C3%A1c.pdf
+2021-02-16T15:43:09.086Z info: shortenUrl: http://link1s.com/jwGLKdZP
+2021-02-16T15:44:20.435Z info: start download
+2021-02-16T15:44:24.372Z info: done
+2021-02-16T15:47:23.953Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/WHEAXLXM243T
+2021-02-16T15:47:23.958Z info: getting download link...
+2021-02-16T15:47:24.689Z info: http://download023.fshare.vn/dl/jYs6FxhWRO3kXq+mbACjlDeuoYWlwO7WrVl+Tekat-veCOs6rg5jQ+Zsdnspz1Xm7-1Q9wS7iHozajMR/02.CEO%20VinaLink%20chia%20s%E1%BA%BB%20c%C3%A1ch%20l%C3%A0m%20Marketing%20tr%C3%AAn%20Facebook%20t%E1%BB%AB%20A-Z.rar
+2021-02-16T15:47:24.915Z info: shortenUrl: http://link1s.com/jwGLKdZP
+2021-02-16T15:48:13.101Z info: start download
+2021-02-16T15:49:03.345Z info: done
+2021-02-16T15:52:25.952Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/PUUFAT3NSOPC
+2021-02-16T15:52:25.960Z info: getting download link...
+2021-02-16T15:52:26.688Z info: http://download024.fshare.vn/dl/yyehhloFcgJhmDxQgMaPACed5aayxXCGSGKqEVom9-Cy3jTNF3wn4P+6ftzdLsUcA0uTSlQ7wCRbdXaM/%5BSanTruongIT.com%5D%20Adobe.After.Effects.2020.v17.1.0.72u1.zip
+2021-02-16T15:52:26.937Z info: shortenUrl: http://link1s.com/jwGLKdZP
+2021-02-16T15:52:36.301Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/WHEAXLXM243T
+2021-02-16T15:52:36.305Z info: getting download link...
+2021-02-16T15:52:38.536Z info: http://download023.fshare.vn/dl/7D8tmDIeX7Lc7Hc2KN+Q+F5L90KtSpmKesRKi8HNq13hSRAzf8Ij7CpI1+a59-6UchPt5UWz59ESgXbM/02.CEO%20VinaLink%20chia%20s%E1%BA%BB%20c%C3%A1ch%20l%C3%A0m%20Marketing%20tr%C3%AAn%20Facebook%20t%E1%BB%AB%20A-Z.rar
+2021-02-16T15:52:38.749Z info: shortenUrl: http://link1s.com/hfxo
+2021-02-16T15:53:40.138Z info: start download
+2021-02-16T15:53:44.845Z info: start download
+2021-02-16T15:54:34.554Z info: done
+2021-02-16T15:54:53.944Z info: start download
+2021-02-16T16:05:48.117Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/PUUFAT3NSOPC
+2021-02-16T16:05:48.126Z info: getting download link...
+2021-02-16T16:05:48.765Z info: http://download024.fshare.vn/dl/ncZg44bYR4A1JKCk8mhgoIWzcCbtM7s+xP5XvbThI4hRA+INR7o80G6O4zSxjZhI8p7Xzfftj3gYMvpE/%5BSanTruongIT.com%5D%20Adobe.After.Effects.2020.v17.1.0.72u1.zip
+2021-02-16T16:05:48.993Z info: shortenUrl: http://link1s.com/jwGLKdZP
+2021-02-16T16:05:56.842Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/WHEAXLXM243T
+2021-02-16T16:05:56.847Z info: getting download link...
+2021-02-16T16:05:57.801Z info: http://download023.fshare.vn/dl/7YPC-2voyykC4+PBt94atQasrSLyPFhklUeUzn9km2N50rt2NRRIevSLbXmXVKmu5xcl3h2LjKdq8kh1/02.CEO%20VinaLink%20chia%20s%E1%BA%BB%20c%C3%A1ch%20l%C3%A0m%20Marketing%20tr%C3%AAn%20Facebook%20t%E1%BB%AB%20A-Z.rar
+2021-02-16T16:05:58.018Z info: shortenUrl: http://link1s.com/hfxo
+2021-02-16T16:06:58.167Z info: start download
+2021-02-16T16:07:03.774Z info: start download
+2021-02-16T16:07:21.270Z info: done
+2021-02-16T16:07:54.419Z info: done
+2021-02-16T16:07:54.429Z info: done
+2021-02-16T16:14:13.564Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/PUUFAT3NSOPC
+2021-02-16T16:14:13.569Z info: getting download link...
+2021-02-16T16:14:16.971Z info: http://download024.fshare.vn/dl/eFT5NzdK-+X7XCstlM+AS7Tn3mCModcEjdPaBWku5nwIH1jiHZJiKVI7qZugYEqr0UX57eAD3X-MxSA3/%5BSanTruongIT.com%5D%20Adobe.After.Effects.2020.v17.1.0.72u1.zip
+2021-02-16T16:14:17.217Z info: shortenUrl: http://link1s.com/jwGLKdZP
+2021-02-16T16:14:21.198Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/WHEAXLXM243T
+2021-02-16T16:14:21.201Z info: getting download link...
+2021-02-16T16:14:32.515Z info: http://download023.fshare.vn/dl/ERrVDwRXp6+9Y8ArAnSOKc1GOKKdodCRsi4NgZxP17BTnkWBNdz1PG1D2H5G2BjS3tXHZqn+uv24UHOJ/02.CEO%20VinaLink%20chia%20s%E1%BA%BB%20c%C3%A1ch%20l%C3%A0m%20Marketing%20tr%C3%AAn%20Facebook%20t%E1%BB%AB%20A-Z.rar
+2021-02-16T16:14:32.762Z info: shortenUrl: http://link1s.com/hfxo
+2021-02-16T16:15:27.560Z error: download router: TypeError: Only absolute URLs are supported
+2021-02-16T16:15:32.627Z info: start download
+2021-02-16T16:15:44.300Z info: start download
+2021-02-16T16:16:08.117Z info: done
+2021-02-16T16:16:31.985Z info: done
+2021-02-16T16:18:25.730Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/WHEAXLXM243T
+2021-02-16T16:18:25.737Z info: getting download link...
+2021-02-16T16:18:26.416Z info: http://download023.fshare.vn/dl/F+vd89Ts3cZ88PDxxag8oUaPonvVNyDTzDKsO3PCi6JelTsWpqGwoAZcszoOM4sDeebbujhtketB8GQb/02.CEO%20VinaLink%20chia%20s%E1%BA%BB%20c%C3%A1ch%20l%C3%A0m%20Marketing%20tr%C3%AAn%20Facebook%20t%E1%BB%AB%20A-Z.rar
+2021-02-16T16:18:26.640Z info: shortenUrl: http://link1s.com/jwGLKdZP
+2021-02-16T16:18:52.561Z error: download router: TypeError: Cannot read property 'Symbol(Request internals)' of null
+2021-02-16T16:18:58.913Z info: start download
+2021-02-16T16:19:49.769Z info: done
+2021-02-16T16:20:14.193Z info: ::ffff:117.5.155.109 GET https://www.fshare.vn/file/WHEAXLXM243T
+2021-02-16T16:20:14.197Z info: getting download link...
+2021-02-16T16:20:14.955Z info: http://download023.fshare.vn/dl/nX1n-qLkkZgX7tmcZFjE7Bj2KwpPyd8jk0OCsvpCgl1SVXZNrYNJW47y0+3JWW4atFoX3wrnWxOF7H23/02.CEO%20VinaLink%20chia%20s%E1%BA%BB%20c%C3%A1ch%20l%C3%A0m%20Marketing%20tr%C3%AAn%20Facebook%20t%E1%BB%AB%20A-Z.rar
+2021-02-16T16:20:15.202Z info: shortenUrl: http://link1s.com/jwGLKdZP
+2021-02-16T16:20:21.122Z info: start download
+2021-02-16T16:20:28.215Z info: done
