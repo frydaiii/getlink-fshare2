@@ -9,7 +9,7 @@ npm start
 ## database
 - key "total_accounts"
 - hash "account:x" (x is a number) include fields: "user_email", "password", "app_key", "user_agent", "token", "session_id", "remain"
-- hash "slot" include fields: "0", "1", "2", ..., 3*total_accounts - 1; each field had one of three state: "available", "unavailable", or the download url
+- hash "slot" include fields: "0", "1", "2", ..., 3*total_accounts - 1; each field had one of three state: "available", "unavailable", "using"
 ## update log
 ### v2.1
 - re-construct, non-tested

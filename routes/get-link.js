@@ -38,20 +38,21 @@ router.get('/:file_url', validateUrl, limiter, async (req, res, next) => {
 
         // slot_index is empty
         // pick account[x] to get download Url and fill it into slot_index
-        const x = slot_index % 3;
+        const x = (slot_index - slot_index % 3) / 3;
         let download = await getDownloadLink(x, req.params.file_url);
 
         if (download.status == 201) { // token is out-dated
-            refreshToken(x);
+            await refreshToken(x);
             download = await getDownloadLink(x, req.params.file_url);
         }
         
         if (download.status == 200) { // success url
             download = await download.json();
             logger.info(download.location);
-            hset('slot', slot_index, download.location);
-
-            const url = req.protocol + '://' + req.get('host') + '/redirect.html?slot=' + slot_index;
+            
+            const url_slash_slot = download.location + '/' + slot_index;
+            const base64 = new Buffer.from(url_slash_slot).toString('base64');
+            const url = req.protocol + '://' + req.get('host') + '/redirect.html?base64_url=' + base64;
             const shorten = await (await fetch('https://link1s.com/api?api=9fce4a3ce21f62d52b6d8d0d8767d4c344bbfb2a&url=' + url)).json();
             if (shorten.status == 'error') await logger.error('shorten url error: ' + shorten.message);
             else await logger.info('shortenUrl: ' + shorten.shortenedUrl);

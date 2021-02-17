@@ -3,7 +3,7 @@
     <title>Download</title>
     <style>
         body {
-            padding: 30px;
+            padding: 10px;
         }
         p {
             text-align: center;
@@ -20,15 +20,15 @@
             <a href="" id="download">Download</a>
         </p>
         <p>
-            <b>Lưu ý: link sẽ mất sau khi tải xong, hoặc đang tải mà bị thoát.</b><br><br>
+            <b>Lưu ý: Sau khi nhấn Download, đường link sẽ hết hiệu lực.</b><br><br>
             <i>Donate (MoMo) để duy trì trang web:</i><br>
             <img src="momoqr.jpg" width="200" height="200">
         </p>
     </div>
     <script>
         const urlParams = new URLSearchParams(window.location.search);
-        const base64_url = urlParams.get('slot');
-        document.getElementById('download').href = 'http://203.171.21.126:3000/download?slot=' + base64_url;
+        const base64_url = urlParams.get('base64_url');
+        document.getElementById('download').href = 'http://203.171.21.126:3000/download?base64_url=' + base64_url;
     </script>
 </body>
 </html>

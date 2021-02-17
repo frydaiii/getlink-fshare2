@@ -7,15 +7,17 @@ async function logout(x) {
     const session_id = await hget('account:' + x, 'session_id');
     const response = await fetch('https://api.fshare.vn/api/user/logout', {
         headers: {
-            'cookie': session_id,
+            'cookie': 'session_id=' + session_id,
             'accept': 'application/json',
             'host': 'api.fshare.vn'
         }
-    }).json();
-    console.log(response);
+    });
+    console.log(await response.json());
 }
 
 async function main() {
     const n = await get('total_accounts');
     for (let i = 0; i < n; i++) await logout(i);
 }
+
+main();

@@ -11,8 +11,8 @@ async function refresh(x) {
         const app_key = await hget('account:' + x, 'app_key');
         const user_agent = await hget('account:' + x, 'user_agent');
         const body = {
-            token: token,
-            app_key: app_key
+            "token": token,
+            "app_key": app_key
         }
         const opts = {
             method: 'post',
@@ -24,13 +24,14 @@ async function refresh(x) {
                 'content-type': 'application/json'
             }
         }
-        const response = await (await fetch('https://api.fshare.vn/api/user/refreshToken', opts)).json();
-
+        let response = await fetch('https://api.fshare.vn/api/user/refreshToken', opts);
+        
         if (response.code == 200) {
+            response = await response.json();
             await logger.info(response.msg);
             await hset('account:' + x, 'token', response.token);
             await hset('account:' + x, 'app_key', response.app_key);
-        } else throw new Error(response.code + ' ' + response.msg);
+        } else throw new Error('refresh status: ' + response.status);
     } catch (err) {
         throw new Error('refresh-token error: ' + err);
     }
