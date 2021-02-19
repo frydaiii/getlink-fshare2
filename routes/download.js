@@ -15,7 +15,7 @@ router.get('/', async (req, res, next) => {
         const slot_index = Number(ascii.slice(ascii.lastIndexOf('/') + 1));
         const total_accounts = Number(await get('total_accounts'));
 
-        if (isNaN(slot_index) || slot_index >= total_accounts || slot_index < 0) {
+        if (isNaN(slot_index) || slot_index >= total_accounts * 3 || slot_index < 0) {
             res.status(404).send('hỏng link');
             return;
         }
@@ -44,25 +44,34 @@ router.get('/', async (req, res, next) => {
 
         fetch(url).then(async (file) => {
             file.body.pipe(res);
-            res.on('close', async () => {
-                const remain_traffic = Number(await hget('account:' + slot_index, 'remain')) - filesize;
+            file.body.on('end', async () => {
+                const x = (slot_index - slot_index % 3) / 3;
+                const remain_traffic = Number(await hget('account:' + x, 'remain')) - filesize;
 
-                if (file.body.readableEnded) {
-                    if (remain_traffic < 0) {
-                        const data = [];
-                        for (let i = slot_index; i < slot_index+3; i++) data.push(i, 'unavailable');
-                        await hmset('slot', data);
-                    } else {
-                        await hset('account:' + slot_index, 'remain', remain_traffic);
-                        await hset('slot', String(slot_index), 'available');
-                    }
+                if (remain_traffic < 0) {
+                    const data = [];
+                    for (let i = x; i < x + 3; i++) data.push(i, 'unavailable');
+                    await hmset('slot', data);
                 } else {
-                    file.body.unpipe(res);
-                    file.body.destroy();
+                    await hset('account:' + x, 'remain', remain_traffic);
                     await hset('slot', String(slot_index), 'available');
                 }
+
+                res.status(200).end();
+            });
+            res.on('close', async () => {
+                if (!file.body.readableEnded) {
+                    file.body.unpipe(res);
+                    file.body.destroy();
+                }
                 
+                await hset('slot', String(slot_index), 'available');
                 await logger.info('done');
+            });
+            res.on('error', async () => {
+                file.body.unpipe(res);
+                file.body.destroy();
+                await hset('slot', String(slot_index), 'available');
             });
         });
     } catch (err) {

@@ -13,11 +13,13 @@ async function logout(x) {
         }
     });
     console.log(await response.json());
+    return;
 }
 
 async function main() {
     const n = await get('total_accounts');
     for (let i = 0; i < n; i++) await logout(i);
+    return;
 }
 
-main();
+module.exports = main;

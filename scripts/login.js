@@ -29,6 +29,7 @@ async function login(x) {
         ];
 
         await hmset('account:' + x, data);  
+        return;
     } catch (err) {
         throw new Error('login err: ' + err);
     }
@@ -37,9 +38,10 @@ async function login(x) {
 async function main() {
     const n = await get('total_accounts');
     for (let i = 0; i < n; i++) await login(i);
+    return;
 }
 
-main();
+// main();
 
-module.exports = login;
+module.exports = main;
 

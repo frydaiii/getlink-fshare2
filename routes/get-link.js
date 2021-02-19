@@ -41,10 +41,10 @@ router.get('/:file_url', validateUrl, limiter, async (req, res, next) => {
         const x = (slot_index - slot_index % 3) / 3;
         let download = await getDownloadLink(x, req.params.file_url);
 
-        if (download.status == 201) { // token is out-dated
-            await refreshToken(x);
-            download = await getDownloadLink(x, req.params.file_url);
-        }
+        // if (download.status == 201) { // token is out-dated
+        //     await refreshToken(x);
+        //     download = await getDownloadLink(x, req.params.file_url);
+        // }
         
         if (download.status == 200) { // success url
             download = await download.json();
