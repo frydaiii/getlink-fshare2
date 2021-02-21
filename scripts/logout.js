@@ -3,9 +3,11 @@ const hget = require('../services/redis-command').hget;
 const fetch = require('node-fetch');
 
 async function logout(x) {
-    await console.log('logging out ' + x);
+    console.log('logging out ' + x);
     const session_id = await hget('account:' + x, 'session_id');
     const response = await fetch('https://api.fshare.vn/api/user/logout', {
+        host: '118.69.164.19',
+        port: 443,
         headers: {
             'cookie': 'session_id=' + session_id,
             'accept': 'application/json',

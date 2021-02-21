@@ -13,6 +13,8 @@ async function login(x) {
         }
         const options = {
             method: 'post',
+            host: '118.69.164.19',
+            port: '443',
             body: JSON.stringify(body),
             headers: {
                 'user-agent': await hget('account:' + x, 'user_agent'),
